@@ -14,5 +14,5 @@ http://github.com/aike/lightsaber.js
 
 ##CREDIT
 lightsaber.js program is licenced under MIT License.  
-Programming and GUI Design: aike
+Programming and GUI Design: aike  
 Contact: twitter @aike1000
