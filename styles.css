@@ -1,0 +1,44 @@
+body {
+  background: #001;
+  height: 520px;
+}
+
+#beam {
+  position: absolute;
+  top: 50px;
+  width: 20px;
+  height: 350px;
+
+  border-radius: 7px 7px 0px 0px;
+  background: -webkit-gradient(
+    linear,
+    left center, 
+    right center, 
+    from(#bbe),
+    color-stop(0.4, #eef),
+    color-stop(0.6, #eef),
+    to(#bbe)
+  );
+  box-shadow: 0 0 30px #88c, 0 0 50px #bbf;
+}
+
+
+#handle {
+  position: absolute;
+  top: 400px;
+  width: 30px;
+  height: 120px;
+  -webkit-user-select: none;
+
+  background: -webkit-gradient(
+    linear,
+    left center,
+    right center,
+    from(#b2b2b2),
+    color-stop(0.40, #e0e0e0),
+    color-stop(0.60, #b2b2b2),
+    to(#404040)
+  );
+
+}
+
